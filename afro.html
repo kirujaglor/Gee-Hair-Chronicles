@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Blog By Glory</title>
+    <link rel="stylesheet" href="afro.css">
+   
+<style>
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh; 
+    background: url('pics/Afro.png') center/cover no-repeat; 
+    image-resolution: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right; 
+}
+
+.navigation {
+    margin: 20px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin-bottom: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.marquee-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap; 
+    color: #fff;
+    font-size: 24px;
+}
+
+</style>
+
+<body>
+
+
+   <div class="container">
+        <nav class="navigation">
+            
+            <ul class="navigation">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="blogs.html">BLOGS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="form.html">FORM</a></li>
+
+        </nav>
+        <div class="marquee-container">
+            <marquee behavior="scroll" direction="left">WELCOME TO GEE HAIR BLOG</marquee>
+        </div>
+
+        <img src="Pics\Afro.png" alt="Natural Hair"> 
+
+    </div>   
+    
+   
+</body>
+
+</html>

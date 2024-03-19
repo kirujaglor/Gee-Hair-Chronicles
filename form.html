@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hair Consultation Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #b6b6b6;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background-color: #e47575;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button + button {
+            margin-left: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h2>Hair Consultation Form</h2>
+
+    <form>
+        <p>Select Hair Service:</p>
+        <label><input type="checkbox" name="hairService" value="Adult Hair Cut"> Adult Hair Cut</label>
+        <label><input type="checkbox" name="hairService" value="Cut and Shampoo"> Cut and Shampoo</label>
+        <label><input type="checkbox" name="hairService" value="Hair Conditioning"> Hair Conditioning</label>
+        <label><input type="checkbox" name="hairService" value="Hair Color"> Hair Color</label>
+        <label><input type="checkbox" name="hairService" value="Hair Styling"> Hair Styling</label>
+        <label><input type="checkbox" name="hairService" value="Relaxer"> Relaxer</label>
+        <label><input type="checkbox" name="hairService" value="Hair Color Blending"> Hair Color Blending</label>
+        <label><input type="checkbox" name="hairService" value="Perms"> Perms</label>
+        <label><input type="checkbox" name="hairService" value="Kids Hair Cut"> Kids Hair Cut</label>
+        <label><input type="checkbox" name="hairService" value="Hair Braiding"> Hair Braiding</label>
+        <label><input type="checkbox" name="hairService" value="Hair Extensions"> Hair Extensions</label>
+        
+        <p>Select an Appointment:</p>
+        <select name="appointmentMonth">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">March</option>
+            <option value="May">April</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <select name="appointmentYear">
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+        </select>
+
+        <input type="date" name="appointmentDate">
+        
+        <p>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+        </p>
+
+    </form>
+
+</body>
+</html>
